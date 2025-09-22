@@ -35,19 +35,16 @@ def step_impl(context):
 
     for i in range(len(items) - 1, 0, -1):
         source = items[0]
-        target = items[i]  # último item
+        target = items[i]
         actions.click_and_hold(source).move_to_element(target).release().perform()
         time.sleep(2)
 
-        # Atualiza lista a cada iteração
         items = context.driver.find_elements(By.CSS_SELECTOR, "div.vertical-list-container div.list-group-item")
 
-    # Nova ordem
     context.new_order = [item.text for item in items]
 
 @then('ele reorganiza a lsita')
 def step_impl(context):
-    # Ordem esperada (decrescente)
     expected_order = context.original_order
     expected_order.reverse()
 
