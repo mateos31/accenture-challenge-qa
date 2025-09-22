@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcd2ab20-c5de-40c1-a244-79e0c1c119fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/sortable_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/sortable_step.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/web_table.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/web_table.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/progress_bar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/progress_bar.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
