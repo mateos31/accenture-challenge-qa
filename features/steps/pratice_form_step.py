@@ -57,14 +57,6 @@ def step_impl(context):
 
     driver.find_element(By.XPATH, "//label[text()='Sports']").click()
 
-    # Upload arquivo
-    """
-    file_path = os.path.abspath("arquivo.txt")
-    with open("arquivo.txt", "w") as f:
-        f.write("Arquivo de teste - Edward Elric")
-    driver.find_element(By.ID, "uploadPicture").send_keys(file_path)
-    """
-
     driver.find_element(By.ID, "currentAddress").send_keys("Sao Paulo SP")
     time.sleep(3)
 
