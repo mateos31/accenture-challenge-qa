@@ -10,7 +10,7 @@ Feature: Preenchimento do formulário
     When ele preencher os dados do formulário AND enviar o arquivo txt
     Then ele clica para enviar o formuláro
 
-  Scenario:
+  Scenario: Confirmar dados de formulário
     Given que o usuário submeteu o formulário
     When visualizar o pop-up com os dados preenchidos
     Then deverá fechar o pop-up e o navegador
